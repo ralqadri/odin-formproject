@@ -4,3 +4,4 @@
 - [x] add inputs
 - [x] add buttons
 - [ ] add valid/invalid inputs css style
+- [ ] add javascript password checker

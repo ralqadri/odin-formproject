@@ -180,6 +180,10 @@ input:focus {
     -moz-box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.32);
 }
 
+input:invalid {
+    outline: 1px solid red;
+}
+
 .footer {
     margin: 3rem 0 0 2rem;
 }
