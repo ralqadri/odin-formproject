@@ -206,7 +206,16 @@ input:invalid {
     -moz-box-shadow: 10px 10px 13px -10px rgba(0,0,0,0.52);
 }
 
-.footer button:focus {
+.footer button:hover {
+    background-color: #425432;
+}
+
+.footer button:active {
+    background-color: #728a5e;
+}
+
+.footer button:focus,
+.footer button:hover {
     cursor: pointer;
 }
 
@@ -219,6 +228,11 @@ input:invalid {
     color: #596D48;
 }
 
-.footer a:focus {
+.footer a:hover {
+    color: #425432;
+}
+
+.footer a:focus,
+.footer a:hover {
     cursor: pointer;
 }

@@ -49,13 +49,13 @@
                                         <label for="first-name">
                                             First Name
                                         </label>
-                                        <input type="text" id="first-name" name="first-name">
+                                        <input type="text" id="first-name" name="first-name" minlength="3">
                                     </div>
                                     <div>
                                         <label for="last-name">
                                             Last Name
                                         </label>
-                                        <input type="text" id="last-name" name="last-name">
+                                        <input type="text" id="last-name" name="last-name" minlength="3">
                                     </div>
                                 </div>
                                 <div class="input-row">
@@ -69,7 +69,8 @@
                                         <label for="phone">
                                             Phone Number
                                         </label>
-                                        <input type="tel" id="phone" name="phone">
+                                        <input type="tel" id="phone" name="phone" pattern="^(0|[1-9][0-9]*)$"
+                                            minlength="8">
                                     </div>
                                 </div>
                                 <div class="input-row">
@@ -77,13 +78,13 @@
                                         <label for="pwd">
                                             Password
                                         </label>
-                                        <input type="password" id="pwd" name="pwd">
+                                        <input type="password" id="pwd" name="pwd" minlength="8">
                                     </div>
                                     <div>
                                         <label for="confirm-pwd">
                                             Confirm Password
                                         </label>
-                                        <input type="password" id="confirm-pwd" name="confirm-pwd">
+                                        <input type="password" id="confirm-pwd" name="confirm-pwd" minlength="8">
                                     </div>
                                 </div>
                             </div>
