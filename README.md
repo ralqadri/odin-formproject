@@ -1,5 +1,6 @@
 # top-formproject
 ## TODO
-- [ ] fix gaps (maybe use separate row-gap & column-gap)
-- [ ] add inputs
-- [ ] add buttons
+- [x] fix gaps (maybe use separate row-gap & column-gap)
+- [x] add inputs
+- [x] add buttons
+- [ ] add valid/invalid inputs css style
